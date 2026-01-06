@@ -8,7 +8,7 @@ import numpy as np
 # -------------------------------
 # Load model and dataset
 # -------------------------------
-model = joblib.load("house_price_model.pkl")
+model = joblib.load("house_price_model (4).pkl")
 df = pd.read_csv("house_data.csv")
 
 # -------------------------------
