@@ -17,7 +17,7 @@ st.set_page_config(
 # -------------------------------------------------------
 # Animated Gradient Background + Modern UI
 # -------------------------------------------------------
-st.markdown('<p style ="font-size:50px;", unsafe_allow_html=True)
+st.markdown('<p style ="font-size:50px;" unsafe_allow_html=True)
 st.markdown("""
 🏠 REAL ESTATE PRICE DASHBOARD
 <style>
