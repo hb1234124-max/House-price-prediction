@@ -154,6 +154,7 @@ if page == "Dashboard":
 
     with col1:
         st.markdown("<div class='card'>", unsafe_allow_html=True)
+        df = df.dropna(subset=["Size", "Price", "Bedrooms"])
         fig = px.scatter(df, x="Size", y="Price",
                          color="Bedrooms",
                          trendline="ols",
