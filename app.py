@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 # Page Config
 # -------------------------------------------------------
 st.set_page_config(
-    page_title="Real Estate Price Dashboard",
+    page_title=" [M.W] Real Estate Price Dashboard",
     layout="wide",
     page_icon="🏠"
 )
