@@ -18,6 +18,7 @@ st.set_page_config(
 # Animated Gradient Background + Modern UI
 # -------------------------------------------------------
 st.markdown("""
+st.title("🏠 REAL ESTATE PRICE DASHBOARD")
 <style>
 
 :root {
