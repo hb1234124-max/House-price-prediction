@@ -67,8 +67,7 @@ body {
 # -------------------------------------------------------
 # Load model and data
 # -------------------------------------------------------
-model =
-joblib.load("house_price_model.pkl")
+model = joblib.load("house_price_model.pkl")
 df = pd.read_csv("house_data.csv")
 
 # Add useful engineered metric
