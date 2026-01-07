@@ -71,8 +71,8 @@ h2, h3, h4 {
 # -------------------------------------------------------
 # Load model & dataset
 # -------------------------------------------------------
-model = joblib.load("/mnt/data/house_price_model.pkl")
-df = pd.read_csv("/mnt/data/house_data (1).csv")
+model = joblib.load("house_price_model.pkl")
+df = pd.read_csv("house_data (1).csv")
 
 # -------------------------------------------------------
 # Title
