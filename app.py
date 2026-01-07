@@ -20,7 +20,7 @@ st.set_page_config(
 st.markdown("""
 🏠 REAL ESTATE PRICE DASHBOARD
 <style>
-st.markdown('<p style ="font-size:50px;"> .</p>', unsafe_allow_html=True)
+st.markdown('<p style ="font-size:80px;"> .</p>', unsafe_allow_html=True)
 :root {
     --primary:#6C63FF;
     --secondary:#FF6584;
