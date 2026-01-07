@@ -156,7 +156,6 @@ if page == "Dashboard":
         st.markdown("<div class='card'>", unsafe_allow_html=True)
         df = df.dropna(subset=["Size", "Price", "Bedrooms"])
         fig = px.scatter(df, x="Size", y="Price",
-                         color="Bedrooms",
                          trendline="ols",
                          title="📈 Price vs Size")
         st.plotly_chart(fig, use_container_width=True)
