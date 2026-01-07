@@ -96,16 +96,16 @@ if page == "Dashboard":
         c1,c2,c3,c4 = st.columns(4)
 
         with c1:
-            size = st.slider("Size (sq.ft)", 400,6000,1400)
+            size = st.slider("Size (sq.ft)", 400,8000,1400)
 
         with c2:
-            bedrooms = st.selectbox("Bedrooms", [1,2,3,4,5,6,7,8])
+            bedrooms = st.selectbox("Bedrooms", [1,2,3,4,5,6,7,8,9,10])
 
         with c3:
-            bathrooms = st.selectbox("Bathrooms", [1,2,3,4,5,6])
+            bathrooms = st.selectbox("Bathrooms", [1,2,3,4,5,6,7,8])
 
         with c4:
-            garage = st.slider("Garage Capacity", 0,5,1)
+            garage = st.slider("Garage Capacity", 0,7,1)
 
         st.markdown("</div>", unsafe_allow_html=True)
 
