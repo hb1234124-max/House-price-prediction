@@ -96,7 +96,7 @@ if page == "Dashboard":
         c1,c2,c3,c4 = st.columns(4)
 
         with c1:
-            size = st.slider("Size (sq.ft)", 600,6000,1400)
+            size = st.slider("Size (sq.ft)", 600,3000,1400)
 
         with c2:
             bedrooms = st.selectbox("Bedrooms", [1,2,3,4,5,6,7])
